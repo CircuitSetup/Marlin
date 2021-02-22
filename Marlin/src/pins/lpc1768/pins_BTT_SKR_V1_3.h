@@ -96,6 +96,20 @@
 #endif
 
 //
+// Power Supply Control
+//
+#ifndef PS_ON_PIN
+  #define PS_ON_PIN                        P1_26  // PWRDET
+#endif
+
+//
+// Power Loss Detection
+//
+#ifndef POWER_LOSS_PIN
+  #define POWER_LOSS_PIN                   P1_26  // PWRDET
+#endif
+
+//
 // Steppers
 //
 #define X_STEP_PIN                         P2_02
